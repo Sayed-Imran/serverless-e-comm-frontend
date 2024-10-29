@@ -16,7 +16,8 @@
     width: 100%;
     .icon_container{
       display: flex;
-      gap: 10px;
+      font-size: 1.2rem;
+      gap: 15px;
       .nav_icon:hover{
         cursor: pointer;
         color: $secondary-background-color;
@@ -29,7 +30,8 @@
   }
   .search_bar_mobile {
     display: flex;
-    width: clamp(100px, 95%, 800px);
+    margin-top: 10px;
+    width: clamp(100px, 98%, 800px);
   }
 }
 @media (min-width: 768px) {

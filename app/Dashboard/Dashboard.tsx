@@ -56,8 +56,8 @@ function Dashboard() {
     return (
         <div >
             <div className='dasboard_navAndBanner_container'>
-                <div>
-                    <Menu onClick={onClick} style={{ width: 256 }} mode="vertical" items={items} className='dashboard_menu'/>
+                <div className='dashboard_sideMenu_container'>
+                    <Menu onClick={onClick} style={{ width: '100%' }} mode="vertical" items={items} className='dashboard_menu'/>
                 </div>
                 <div className='dashboard_carousel'>
                     <AntCarousel>
