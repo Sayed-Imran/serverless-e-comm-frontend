@@ -1,18 +1,16 @@
 'use client'
 import React from 'react';
-// import { useSelector } from 'react-redux';
-// import { CustomerServiceOutlined} from '@ant-design/icons';
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
-import './Dashboard';
-
-type MenuItem = Required<MenuProps>['items'][number];
-
-const items: MenuItem[] = [
+import AntCarousel from '../Components/AntCarousel/AntCarousel';
+import './Dashboard.scss'
+import Image from 'next/image';
+import bannerImage1 from '../Utils/Assets/Images/Banners/banner_1.png';
+import bannerImage2 from '../Utils/Assets/Images/Banners/banner_2.png';
+import bannerImage3 from '../Utils/Assets/Images/Banners/banner_3.png';
+const items: any[] = [
     {
         key: 'sub1',
-        icon: <MailOutlined />,
         label: 'Navigation One',
         children: [
             {
@@ -37,47 +35,66 @@ const items: MenuItem[] = [
     },
     {
         key: 'sub2',
-        icon: <AppstoreOutlined />,
         label: 'Navigation Two',
-        children: [
-            { key: '5', label: 'Option 5' },
-            { key: '6', label: 'Option 6' },
-            {
-                key: 'sub3',
-                label: 'Submenu',
-                children: [
-                    { key: '7', label: 'Option 7' },
-                    { key: '8', label: 'Option 8' },
-                ],
-            },
-        ],
     },
     {
         key: 'sub4',
         label: 'Navigation Three',
-        icon: <SettingOutlined />,
-        children: [
-            { key: '9', label: 'Option 9' },
-            { key: '10', label: 'Option 10' },
-            { key: '11', label: 'Option 11' },
-            { key: '12', label: 'Option 12' },
-        ],
     },
 ];
 
 const onClick: MenuProps['onClick'] = (e) => {
     console.log('click', e);
 };
-
-const App: React.FC = () => (
-    <Menu onClick={onClick} style={{ width: 256 }} mode="vertical" items={items} />
-);
-
-
+const contentStyle: React.CSSProperties = {
+    height: '300px',
+    color: '#fff',
+    width: "100%",
+    textAlign: 'center',
+    background: '#364d79',
+};
 function Dashboard() {
     return (
         <div >
-            <App />
+            <div className='dasboard_navAndBanner_container'>
+                <div className='dashboard_sideMenu_container'>
+                    <Menu onClick={onClick} style={{ width: '100%' }} mode="vertical" items={items} className='dashboard_menu'/>
+                </div>
+                <div className='dashboard_carousel'>
+                    <AntCarousel>
+                        <div style={contentStyle}>
+                            <Image
+                                src={bannerImage1} 
+                                alt="Description of image"
+                                style={contentStyle}
+                            />
+                        </div>
+                        <div style={contentStyle}>
+                            <Image
+                                src={bannerImage2} 
+                                alt="Description of image"
+                                style={contentStyle}
+                            />
+                        </div>
+                        <div style={contentStyle}>
+
+                            <Image
+                                src={bannerImage3} 
+                                alt="Description of image"
+                                style={contentStyle}
+                            />
+                        </div>
+                        <div style={contentStyle}>
+                            <Image
+                                src={bannerImage2}
+                                alt="Description of image"
+                                style={contentStyle}
+
+                            />
+                        </div>
+                    </AntCarousel>
+                </div>
+            </div>
         </div>
     )
 }
