@@ -5,8 +5,9 @@ import { Menu } from 'antd';
 import AntCarousel from '../Components/AntCarousel/AntCarousel';
 import './Dashboard.scss'
 import Image from 'next/image';
-import bannerImage1 from '../Utils/Assets/Images/Banners/banner_1.png'
-import bannerImage3 from '../Utils/Assets/Images/Banners/banner_2.png'
+import bannerImage1 from '../Utils/Assets/Images/Banners/banner_1.png';
+import bannerImage2 from '../Utils/Assets/Images/Banners/banner_2.png';
+import bannerImage3 from '../Utils/Assets/Images/Banners/banner_3.png';
 const items: any[] = [
     {
         key: 'sub1',
@@ -70,7 +71,7 @@ function Dashboard() {
                         </div>
                         <div style={contentStyle}>
                             <Image
-                                src={bannerImage1} 
+                                src={bannerImage2} 
                                 alt="Description of image"
                                 style={contentStyle}
                             />
@@ -78,16 +79,17 @@ function Dashboard() {
                         <div style={contentStyle}>
 
                             <Image
-                                src={bannerImage1} 
+                                src={bannerImage3} 
                                 alt="Description of image"
                                 style={contentStyle}
                             />
                         </div>
                         <div style={contentStyle}>
                             <Image
-                                src={bannerImage1} 
+                                src={bannerImage2}
                                 alt="Description of image"
                                 style={contentStyle}
+
                             />
                         </div>
                     </AntCarousel>
