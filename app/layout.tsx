@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "./globals.scss";
 import {Providers} from "./Utils/Redux/Provider"
 const geistSans = localFont({
   src: "./Utils/fonts/GeistVF.woff",

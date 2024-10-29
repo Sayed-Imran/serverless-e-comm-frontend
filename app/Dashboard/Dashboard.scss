@@ -1,0 +1,17 @@
+@import '../variables.scss';
+.ant-menu-item-selected{
+    background-color: $button-background-color !important;
+    color: $button-text-color !important;
+}
+.ant-menu-submenu-selected >.ant-menu-submenu-title{
+    background-color: $button-background-color !important;
+    color: $button-text-color !important;
+}
+.dashboard_menu{
+    margin-top: 10px;
+}
+// .dasboard_navAndBanner_container{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }

@@ -1,12 +1,12 @@
 'use client'
 import Image from "next/image";
-import styles from "./page.module.css";
+import  "./page.scss";
 import Loader from "./Utils/Service/Loader/Loader";
 import { useDispatch } from 'react-redux';
 import {ServiceUtils} from './Utils/Service/httpLayer'
 import { showLoader, hideLoader } from './Utils/Redux/LoaderSlice';
 import Dashboard from './Dashboard/Dashboard';
-
+import TopNav from "./Components/NavBar/TopNav/TopNav";
 export default function Home() {
   const dispatch = useDispatch();
   
@@ -26,12 +26,10 @@ export default function Home() {
     randomAPICall();
   }
   return (
-    <div className={styles.page}>
+    <div className="page">
       <Loader />
+      <TopNav />
       <Dashboard />
-      <button onClick={startLoader}>
-        Click me
-      </button>
     </div>
   );
 }
