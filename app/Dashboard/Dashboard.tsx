@@ -8,6 +8,8 @@ import Image from 'next/image';
 import bannerImage1 from '../Utils/Assets/Images/Banners/banner_1.png';
 import bannerImage2 from '../Utils/Assets/Images/Banners/banner_2.png';
 import bannerImage3 from '../Utils/Assets/Images/Banners/banner_3.png';
+import CardHolder from '../Components/CardHolder/CardHolder';
+
 const items: any[] = [
     {
         key: 'sub1',
@@ -93,6 +95,7 @@ function Dashboard() {
                             />
                         </div>
                     </AntCarousel>
+                 <CardHolder/>
                 </div>
             </div>
         </div>
