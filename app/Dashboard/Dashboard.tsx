@@ -95,9 +95,9 @@ function Dashboard() {
                             />
                         </div>
                     </AntCarousel>
-                 <CardHolder/>
                 </div>
             </div>
+            <CardHolder/>
         </div>
     )
 }

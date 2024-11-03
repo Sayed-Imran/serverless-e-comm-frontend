@@ -62,7 +62,7 @@ const Cards: React.FC<CardsProps> = ({
         }
       />
       <div style={{ marginTop: 10 }}>
-        <Rate disabled={true} style={{ fontSize: '17px' }} allowHalf defaultValue={rateDefaultValue} /> <span>(78)</span>
+        <Rate disabled={true} style={{ fontSize: '12px' }} allowHalf defaultValue={rateDefaultValue} /> <span>(78)</span>
       </div>
       <div className="floating_buttons">
         {floatingButtons.map((btn, index) => (
@@ -72,10 +72,10 @@ const Cards: React.FC<CardsProps> = ({
             icon={btn.icon}
             onClick={btn.onClick}
             style={{
-              fontSize: '12px',
-              width: '30px',
-              height: '30px',
-              marginBottom: index === 0 ? 40 : 0
+              fontSize: '11px',
+              width: '25px',
+              height: '25px',
+              marginBottom: index === 0 ? 35 : 0
             }}
           />
         ))}

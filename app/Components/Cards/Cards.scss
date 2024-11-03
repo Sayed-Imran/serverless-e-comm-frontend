@@ -12,8 +12,8 @@
 
 .floating_buttons {
     position: absolute;
-    top: 42%;
-    right: -11px;
+    top: 46%;
+    right: -23px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
@@ -27,16 +27,16 @@
 .banner {
     position: absolute;
     top: 7%;
-    right: 226px;
+    right: 259px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 58px;
-    height: 27px;
-    background-color: $secondary-button-color;
+    width: 41px;
+    height: 20px;
+    background-color: #DB4444;
     color: white;
-    padding: 4px 8px;
+    padding: 0px 2px;
     border-radius: 4px;
     margin-right: 8px;
 }
