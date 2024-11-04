@@ -1,0 +1,61 @@
+@import '../../variables';
+
+.actual_price {
+    color: $secondary-button-color;
+}
+
+.discounted_price {
+    text-decoration: line-through;
+    color: $price-text-color;
+    margin-left: 10px;
+}
+
+.floating_buttons {
+    position: absolute;
+    top: 46%;
+    right: -23px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.float-hover:hover{
+    background-color: $secondary-button-color;
+}
+
+.banner {
+    position: absolute;
+    top: 7%;
+    right: 259px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 41px;
+    height: 20px;
+    background-color: #DB4444;
+    color: white;
+    padding: 0px 2px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.hover-button {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 0.3s ease;
+    width: 100%;
+    right: -1px;
+}
+
+.ant-card:hover .hover-button {
+    bottom: 10px;
+}
+
+// position: absolute;
+// top: 148px;
+// width: 100%;
+// right: -1px;
