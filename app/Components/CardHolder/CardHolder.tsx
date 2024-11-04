@@ -70,42 +70,51 @@ const CardHolder: React.FC = () => {
         //     />
         //   ))}
         // </div>
-
-        <div className="card-holder-container">
-            <button className="scroll-btn left" onClick={scrollLeft}>
-                <LeftOutlined />
-            </button>
-
-            <div className="card-holder" ref={scrollRef}>
-                {CardData.map((cardData, index) => (
-                    <Cards
-                        key={index}
-                        width="200px"
-                        image={cardData.image}
-                        bordered={cardData.bordered}
-                        hoverable={cardData.hoverable}
-                        // actions={cardData.actions.map(action => ({
-                        //   icon: React.createElement(require('@ant-design/icons')[action.icon]),
-                        //   label: action.label,
-                        //   onClick: () => console.log(action.label)
-                        // }))}
-                        title={cardData.title}
-                        actualPrice={cardData.actualPrice}
-                        discountedPrice={cardData.discountedPrice}
-                        rateDefaultValue={cardData.rateDefaultValue}
-                        floatingButtons={cardData.floatingButtons.map(btn => ({
-                            icon: React.createElement(require('@ant-design/icons')[btn.icon]),
-                            onClick: () => console.log(btn.icon)
-                        }))}
-                        banner={cardData.banner}
-                    // hoverButtonLabel={cardData.hoverButtonLabel}
-                    />
-                ))}
+        <div className="scrol_card_holder_container">
+            <div className="scroll_cards_holder_header">
+                <div className="card_holder_heading">
+                    <div className="heading_left_box"></div>
+                    Today's
+                </div>
+                <div className="scrolls_buttons_container">
+                    <button className="scroll-btn left" onClick={scrollLeft}>
+                        <LeftOutlined />
+                    </button>
+                    <button className="scroll-btn right" onClick={scrollRight}>
+                        <RightOutlined />
+                    </button>
+                </div>
             </div>
-
-            <button className="scroll-btn right" onClick={scrollRight}>
-                <RightOutlined />
-            </button>
+            <div className="card-holder-container">
+                <div className="card-holder" ref={scrollRef}>
+                    {CardData.map((cardData, index) => (
+                        <Cards
+                            key={index}
+                            width="200px"
+                            image={cardData.image}
+                            bordered={cardData.bordered}
+                            hoverable={cardData.hoverable}
+                            // actions={cardData.actions.map(action => ({
+                            //   icon: React.createElement(require('@ant-design/icons')[action.icon]),
+                            //   label: action.label,
+                            //   onClick: () => console.log(action.label)
+                            // }))}
+                            title={cardData.title}
+                            actualPrice={cardData.actualPrice}
+                            discountedPrice={cardData.discountedPrice}
+                            rateDefaultValue={cardData.rateDefaultValue}
+                            floatingButtons={cardData.floatingButtons.map((btn:any) => ({
+                                key:btn.id,
+                                id:btn.id,
+                                icon: React.createElement(require('@ant-design/icons')[btn.icon]),
+                                onClick: () => console.log(btn.icon)
+                            }))}
+                            banner={cardData.banner}
+                        // hoverButtonLabel={cardData.hoverButtonLabel}
+                        />
+                    ))}
+                </div>
+            </div>
         </div>
     );
 }

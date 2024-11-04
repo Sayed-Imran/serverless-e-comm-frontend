@@ -29,7 +29,9 @@ export default function Home() {
     <div className="page">
       <Loader />
       <TopNav />
-      <Dashboard />
+      <div className="body_container">
+        <Dashboard />
+      </div>
     </div>
   );
 }
