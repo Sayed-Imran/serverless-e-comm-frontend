@@ -20,11 +20,17 @@ interface CardsProps {
   actualPrice: string;
   discountedPrice: string;
   rateDefaultValue: number;
-  floatingButtons?: Array<{ icon: React.ReactNode; onClick?: () => void }>;
+  floatingButtons?: Array<{id:string, icon: React.ReactNode; onClick?: () => void }>;
   banner?: string;
   hoverButtonLabel?: string;
 }
-
+let handleClick = (data:any) => {
+  if(data?.id === 'heart'){
+    console.log("clicked on heart")
+  }else if(data?.id == 'eye'){
+    console.log("clicked on eye")
+  }
+}
 const Cards: React.FC<CardsProps> = ({
   width,
   height,
@@ -42,7 +48,7 @@ const Cards: React.FC<CardsProps> = ({
 }) => {
   return (
     <AntCard
-      style={{ width, height }}
+      className='Antcard'
       bordered={bordered}
       hoverable={hoverable}
       cover={<img alt="Card Image" src={image} />}
@@ -51,6 +57,7 @@ const Cards: React.FC<CardsProps> = ({
           {action.icon} {action.label}
         </div>
       ))}
+      style={{ width: 440 }}
     >
       <Meta
         title={title}
@@ -65,12 +72,12 @@ const Cards: React.FC<CardsProps> = ({
         <Rate disabled={true} style={{ fontSize: '12px' }} allowHalf defaultValue={rateDefaultValue} /> <span>(78)</span>
       </div>
       <div className="floating_buttons">
-        {floatingButtons.map((btn, index) => (
+        {floatingButtons.map((btn:any, index) => (
           <FloatButton className="float-hover"
             key={index}
             type="default"
             icon={btn.icon}
-            onClick={btn.onClick}
+            onClick={() => handleClick(btn)}
             style={{
               fontSize: '11px',
               width: '25px',

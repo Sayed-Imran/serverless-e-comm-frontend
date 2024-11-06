@@ -26,13 +26,14 @@
 @media (min-width: 768px) {
     .dasboard_navAndBanner_container{
         align-items: flex-start;
-        justify-content: flex-start;
+        justify-content: space-between;
         .dashboard_sideMenu_container{
             display: inline;
-            width: 25vw;
+            width: 20vw;
+            border-right: 1px solid black;
         }
         .dashboard_carousel{
-            width: 65vw;
+            width: 55vw;
         }
     }
   }

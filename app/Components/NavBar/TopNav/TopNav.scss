@@ -2,6 +2,8 @@
 .navbar_container {
   padding: 10px;
   display: flex;
+  position: fixed;
+  background-color: $primary-background-color;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -36,6 +38,7 @@
 }
 @media (min-width: 768px) {
   .navbar_container {
+    padding: 10px 10vw;
     .search_bar_desktop {
       display: flex;
     }

@@ -28,12 +28,12 @@
     "rateDefaultValue": 1,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -68,12 +68,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -108,12 +108,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -148,12 +148,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -188,12 +188,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -228,12 +228,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -268,12 +268,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -308,12 +308,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -348,12 +348,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",
@@ -388,12 +388,12 @@
     "rateDefaultValue": 4.5,
     "floatingButtons": [
       {
-        "icon": "HeartOutlined",
-        "onClick": "handleHeartClick"
+        "id":"heart",
+        "icon": "HeartOutlined"
       },
       {
-        "icon": "EyeOutlined",
-        "onClick": "handleEyeClick"
+        "id":"eye",
+        "icon": "EyeOutlined"
       }
     ],
     "banner": "-45%",

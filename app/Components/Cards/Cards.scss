@@ -1,7 +1,13 @@
-@import '../../variables';
+@import '../../variables.scss' ;
 
+.Antcard{
+    .ant-card-body{
+        width: 250px ;
+    }
+    // width: 400px !important;
+}
 .actual_price {
-    color: $secondary-button-color;
+    color: $secondary-background-color;
 }
 
 .discounted_price {
@@ -12,8 +18,8 @@
 
 .floating_buttons {
     position: absolute;
-    top: 46%;
-    right: -23px;
+    top: 42%;
+    right: -15px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
@@ -21,20 +27,23 @@
 }
 
 .float-hover:hover{
-    background-color: $secondary-button-color;
+    background-color: $secondary-background-color;
+    .ant-float-btn-icon{
+        color: $button-text-color !important;
+    }
 }
 
 .banner {
     position: absolute;
     top: 7%;
-    right: 259px;
+    left: 10px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 41px;
     height: 20px;
-    background-color: #DB4444;
+    background-color: $secondary-background-color;
     color: white;
     padding: 0px 2px;
     border-radius: 4px;
