@@ -1,402 +1,385 @@
-[
-  {
-    "width": "1300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 1,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  },
-  {
-    "width": "300px",
-    "height": "400px",
-    "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
-    "bordered": false,
-    "hoverable": true,
-    "actions": [
-      {
-        "icon": "SettingOutlined",
-        "label": "Settings",
-        "onClick": "handleSettingsClick"
-      },
-      {
-        "icon": "HeartOutlined",
-        "label": "Favorite",
-        "onClick": "handleFavoriteClick"
-      },
-      {
-        "icon": "EllipsisOutlined",
-        "label": "More",
-        "onClick": "handleMoreClick"
-      }
-    ],
-    "title": "Product Title",
-    "actualPrice": "$321",
-    "discountedPrice": "$350",
-    "rateDefaultValue": 4.5,
-    "floatingButtons": [
-      {
-        "id":"heart",
-        "icon": "HeartOutlined"
-      },
-      {
-        "id":"eye",
-        "icon": "EyeOutlined"
-      }
-    ],
-    "banner": "-45%",
-    "hoverButtonLabel": "Add To Cart"
-  }
-]
+{
+  "holderName":"Today's",
+  "cardsList": [
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 1,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    },
+    {
+      "image": "https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png",
+      "bordered": false,
+      "hoverable": true,
+      "actions": [
+        {
+          "icon": "SettingOutlined",
+          "label": "Settings",
+          "onClick": "handleSettingsClick"
+        },
+        {
+          "icon": "HeartOutlined",
+          "label": "Favorite",
+          "onClick": "handleFavoriteClick"
+        },
+        {
+          "icon": "EllipsisOutlined",
+          "label": "More",
+          "onClick": "handleMoreClick"
+        }
+      ],
+      "title": "Product Title",
+      "actualPrice": "$321",
+      "discountedPrice": "$350",
+      "rateDefaultValue": 4.5,
+      "floatingButtons": [
+        {
+          "id": "heart",
+          "icon": "HeartOutlined"
+        },
+        {
+          "id": "eye",
+          "icon": "EyeOutlined"
+        }
+      ],
+      "banner": "-45%",
+      "hoverButtonLabel": "Add To Cart"
+    }
+  ]
+}

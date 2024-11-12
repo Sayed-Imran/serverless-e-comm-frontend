@@ -4,6 +4,7 @@
   display: flex;
   position: fixed;
   background-color: $primary-background-color;
+  z-index: 999999;
   align-items: center;
   justify-content: center;
   flex-direction: column;
