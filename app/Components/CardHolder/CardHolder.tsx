@@ -1,11 +1,13 @@
 import React, { useRef } from "react";
 import Cards from "../Cards/Cards";
 import { HeartOutlined, EyeOutlined, SettingOutlined, EllipsisOutlined } from '@ant-design/icons';
-import CardData from '../../Utils/Assets/Jsons/CardData.json';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import './CardHolder.scss';
-
-const CardHolder: React.FC = () => {
+interface CardsProps {
+    holderName:string,
+    cardsList:Array<any>
+  }
+const CardHolder: React.FC<CardsProps> = ({holderName,cardsList}) => {
     const scrollRef = useRef<HTMLDivElement>(null);
     const scrollLeft = () => {
         if (scrollRef.current) {
@@ -74,7 +76,7 @@ const CardHolder: React.FC = () => {
             <div className="scroll_cards_holder_header">
                 <div className="card_holder_heading">
                     <div className="heading_left_box"></div>
-                    Today's
+                    {holderName}
                 </div>
                 <div className="scrolls_buttons_container">
                     <button className="scroll-btn left" onClick={scrollLeft}>
@@ -87,7 +89,7 @@ const CardHolder: React.FC = () => {
             </div>
             <div className="card-holder-container">
                 <div className="card-holder" ref={scrollRef}>
-                    {CardData.map((cardData, index) => (
+                    {cardsList.map((cardData, index) => (
                         <Cards
                             key={index}
                             width="200px"

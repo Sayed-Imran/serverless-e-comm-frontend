@@ -9,6 +9,7 @@ import bannerImage1 from '../Utils/Assets/Images/Banners/banner_1.png';
 import bannerImage2 from '../Utils/Assets/Images/Banners/banner_2.png';
 import bannerImage3 from '../Utils/Assets/Images/Banners/banner_3.png';
 import CardHolder from '../Components/CardHolder/CardHolder';
+import cardsList from '../Utils/Assets/Jsons/CardData.json'
 
 const items: any[] = [
     {
@@ -113,7 +114,9 @@ function Dashboard() {
                     </AntCarousel>
                 </div>
             </div>
-            <CardHolder/>
+            <CardHolder cardsList={cardsList.cardsList} holderName={cardsList.holderName}/>
+            <CardHolder cardsList={cardsList.cardsList} holderName='Trending'/>
+            <CardHolder cardsList={cardsList.cardsList} holderName='Our Products'/>
         </div>
     )
 }
