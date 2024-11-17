@@ -1,0 +1,146 @@
+{
+    "items":[
+        {
+            "key": "mobiles",
+            "label": "Mobiles",
+            "children": [
+                {
+                    "key": "samsung",
+                    "label": "Samsung",
+                    "image": ""
+    
+                },
+                {
+                    "key": "apple",
+                    "label": "Apple",
+                    "image": ""
+                },
+                {
+                    "key": "mi",
+                    "label": "Mi",
+                    "image": ""
+                },
+                {
+                    "key": "realme",
+                    "label": "realme",
+                    "image": ""
+                },
+                {
+                    "key": "vivo",
+                    "label": "Vivo",
+                    "image": ""
+                },
+                {
+                    "key": "asus",
+                    "label": "Asus",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "key": "men_fashion",
+            "label": "Men's Fashion",
+            "children": [
+                {
+                    "key": "tshirts",
+                    "label": "T-Shirts",
+                    "image": ""
+                },
+                {
+                    "key": "shirts",
+                    "label": "Shirts",
+                    "image": ""
+                },
+                {
+                    "key": "jeans",
+                    "label": "Jeans",
+                    "image": ""
+                },
+                {
+                    "key": "trousers",
+                    "label": "Trousers",
+                    "image": ""
+                },
+                {
+                    "key": "shoes",
+                    "label": "Shoes",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "key": "homeFurniture",
+            "label": "Home & Furniture",
+            "children": [
+                {
+                    "key": "beds",
+                    "label": "Beds",
+                    "image": ""
+                },
+                {
+                    "key": "sofas",
+                    "label": "Sofas",
+                    "image": ""
+                },
+                {
+                    "key": "diningTables",
+                    "label": "Dining Tables",
+                    "image": ""
+                },
+                {
+                    "key": "tvUnits",
+                    "label": "TV Units",
+                    "image": ""
+                },
+                {
+                    "key": "wardrobes",
+                    "label": "Wardrobes",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "key": "electronics",
+            "label": "Electronics",
+            "children": [
+                {
+                    "key": "laptops",
+                    "label": "Laptops",
+                    "image": ""
+                },
+                {
+                    "key": "refrigerators",
+                    "label": "Refrigerators",
+                    "image": ""
+                },
+                {
+                    "key": "washingMachines",
+                    "label": "Washing Machines",
+                    "image": ""
+                },
+                {
+                    "key": "airConditioners",
+                    "label": "Air Conditioners",
+                    "image": ""
+                },
+                {
+                    "key": "televisions",
+                    "label": "Televisions",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "key": "medicine",
+            "label": "Medicine"
+        },
+        {
+            "key": "grocery",
+            "label": "Grocery"
+        },
+        {
+            "key": "sports",
+            "label": "Sports"
+        }
+    ]
+}

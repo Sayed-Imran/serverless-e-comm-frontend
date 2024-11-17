@@ -3,7 +3,7 @@
   padding: 10px;
   display: flex;
   position: fixed;
-  background-color: $primary-background-color;
+  background: $primary-background-color;
   z-index: 999999;
   align-items: center;
   justify-content: center;
@@ -35,6 +35,9 @@
     display: flex;
     margin-top: 10px;
     width: clamp(100px, 98%, 800px);
+  }
+  .anticon{
+    color: $primary-text-color;
   }
 }
 @media (min-width: 768px) {

@@ -1,11 +1,41 @@
 @import '../variables.scss';
-.ant-menu-item-selected{
-    background-color: $button-background-color !important;
-    color: $button-text-color !important;
+.ant-menu-root{
+    // background-color: transparent !important;
+    background: rgba( 255, 255, 255, 0.5 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( $secondary-background-color, 0.37 ) !important;
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px ) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    font-weight: 600 !important;
 }
-.ant-menu-submenu-selected >.ant-menu-submenu-title{
-    background-color: $button-background-color !important;
+.ant-menu-item{
     color: $button-text-color !important;
+    background-color: transparent;
+}
+.ant-menu-submenu-popup > .ant-menu {
+    // background-color: transparent !important;
+    background: rgba( 255, 255, 255, 0.5 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( $secondary-background-color, 0.37 ) !important;
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px ) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    font-weight: 600!important;
+    color: $button-text-color !important;
+  }
+.ant-menu-submenu-title{
+    color: $button-text-color !important;
+    background-color: transparent;
+}
+.ant-menu-item-group-title {
+    color: rgba($primary-text-color,0.7) !important;  
+    font-weight: 600;
+    font-size: 1.1em !important;
+  }
+.ant-menu-item:hover{
+    color: $button-text-color !important;
+    background-color: $button-background-color!important;
 }
 .dashboard_menu{
     margin-top: 10px;
@@ -17,6 +47,8 @@
     justify-content: center;
     .dashboard_sideMenu_container{
         display: none;
+        background-color: $primary-background-color;
+        color: $primary-text-color;
     }
     .dashboard_carousel{
         width:90%;
@@ -30,7 +62,8 @@
         .dashboard_sideMenu_container{
             display: inline;
             width: 20vw;
-            border-right: 1px solid black;
+            background-color: $primary-background-color;
+            color: $primary-text-color;
         }
         .dashboard_carousel{
             width: 55vw;
