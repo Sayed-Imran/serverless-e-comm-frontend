@@ -1,19 +1,33 @@
 @import '../../variables.scss' ;
 
 .Antcard{
+    // background-color: $primary-background-color;
+    // color: $primary-text-color;
+    background: rgba( 255, 255, 255, 0.5 ) !important;
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px ) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    .ant-card-meta-title {
+        // color: $primary-text-color !important;
+    }
     .ant-card-body{
         width: 250px ;
     }
     // width: 400px !important;
 }
-.actual_price {
-    color: $secondary-background-color;
-}
+.Antcard:hover{
+    box-shadow: 0 2px 16px 0 rgba($secondary-background-color,1) !important;
 
-.discounted_price {
+}
+.actual_price {
     text-decoration: line-through;
     color: $price-text-color;
     margin-left: 10px;
+}
+
+.discounted_price {
+    color: rgb(255, 228, 21);
 }
 
 .floating_buttons {
@@ -33,7 +47,7 @@
     }
 }
 
-.banner {
+.discountPercentage {
     position: absolute;
     top: 7%;
     left: 10px;
@@ -44,7 +58,7 @@
     width: 41px;
     height: 20px;
     background-color: $secondary-background-color;
-    color: white;
+    color: rgb(27, 27, 27);
     padding: 0px 2px;
     border-radius: 4px;
     margin-right: 8px;
@@ -62,6 +76,33 @@
 
 .ant-card:hover .hover-button {
     bottom: 10px;
+}
+
+.viewAllCard{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 3px 0 rgba(122, 122, 122, 0.5)!important;
+    border-radius: 5px;
+    background: rgba( 255, 255, 255, 0.5 ) !important;
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px ) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    font-weight: 600 !important;
+    color: $button-text-color;
+    .viewAllText{
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+    .viewAllText:hover{
+        cursor: pointer;
+    }
+}
+.viewAllCard:hover{
+    box-shadow: 0 2px 10px 0 rgba($secondary-background-color, 0.75) !important;
 }
 
 // position: absolute;

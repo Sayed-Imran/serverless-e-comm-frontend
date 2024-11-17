@@ -93,26 +93,15 @@ const CardHolder: React.FC<CardsProps> = ({holderName,cardsList}) => {
                         <Cards
                             key={index}
                             width="200px"
-                            image={cardData.image}
-                            bordered={cardData.bordered}
-                            hoverable={cardData.hoverable}
-                            // actions={cardData.actions.map(action => ({
-                            //   icon: React.createElement(require('@ant-design/icons')[action.icon]),
-                            //   label: action.label,
-                            //   onClick: () => console.log(action.label)
-                            // }))}
-                            title={cardData.title}
-                            actualPrice={cardData.actualPrice}
-                            discountedPrice={cardData.discountedPrice}
-                            rateDefaultValue={cardData.rateDefaultValue}
-                            floatingButtons={cardData.floatingButtons.map((btn:any) => ({
-                                key:btn.id,
-                                id:btn.id,
-                                icon: React.createElement(require('@ant-design/icons')[btn.icon]),
-                                onClick: () => console.log(btn.icon)
-                            }))}
-                            banner={cardData.banner}
-                        // hoverButtonLabel={cardData.hoverButtonLabel}
+                            image={cardData?.image}
+                            bordered={false}
+                            hoverable={true}
+                            title={cardData?.title}
+                            actualPrice={cardData?.actualPrice}
+                            discountedPrice={cardData?.discountedPrice}
+                            rateDefaultValue={cardData?.rateDefaultValue}
+                            discountPercentage={cardData?.discountPercentage}
+                            type={cardData?.type}
                         />
                     ))}
                 </div>

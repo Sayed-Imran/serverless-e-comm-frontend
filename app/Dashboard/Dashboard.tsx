@@ -10,58 +10,10 @@ import bannerImage2 from '../Utils/Assets/Images/Banners/banner_2.png';
 import bannerImage3 from '../Utils/Assets/Images/Banners/banner_3.png';
 import CardHolder from '../Components/CardHolder/CardHolder';
 import cardsList from '../Utils/Assets/Jsons/CardData.json'
+import categoriesList from '../Utils/Assets/Jsons/categoriesNav.json'
 
-const items: any[] = [
-    {
-        key: 'sub1',
-        label: 'Navigation One',
-        children: [
-            {
-                key: '1-1',
-                label: 'Item 1',
-                type: 'group',
-                children: [
-                    { key: '1', label: 'Option 1' },
-                    { key: '2', label: 'Option 2' },
-                ],
-            },
-            {
-                key: '1-2',
-                label: 'Item 2',
-                type: 'group',
-                children: [
-                    { key: '3', label: 'Option 3' },
-                    { key: '4', label: 'Option 4' },
-                ],
-            },
-        ],
-    },
-    {
-        key: 'sub2',
-        label: 'Navigation Two',
-    },
-    {
-        key: 'sub4',
-        label: 'Navigation Three',
-    },
-    {
-        key: 'sub5',
-        label: 'Navigation Three',
-    },
-    {
-        key: 'sub6',
-        label: 'Navigation Three',
-    },
-    {
-        key: 'sub7',
-        label: 'Navigation Three',
-    },
-    {
-        key: 'sub8',
-        label: 'Navigation Three',
-    },
-];
-
+const allCardsData:any = cardsList.cardsList
+allCardsData.push({type:"viewAll"})
 const onClick: MenuProps['onClick'] = (e) => {
     console.log('click', e);
 };
@@ -77,7 +29,7 @@ function Dashboard() {
         <div >
             <div className='dasboard_navAndBanner_container'>
                 <div className='dashboard_sideMenu_container'>
-                    <Menu onClick={onClick} style={{ width: '100%' }} mode="vertical" items={items} className='dashboard_menu'/>
+                    <Menu onClick={onClick} style={{ width: '100%' }} mode="vertical" items={categoriesList.items}  className='dashboard_menu'/>
                 </div>
                 <div className='dashboard_carousel'>
                     <AntCarousel>
@@ -114,9 +66,9 @@ function Dashboard() {
                     </AntCarousel>
                 </div>
             </div>
-            <CardHolder cardsList={cardsList.cardsList} holderName={cardsList.holderName}/>
-            <CardHolder cardsList={cardsList.cardsList} holderName='Trending'/>
-            <CardHolder cardsList={cardsList.cardsList} holderName='Our Products'/>
+            <CardHolder cardsList={allCardsData} holderName={cardsList.holderName}/>
+            <CardHolder cardsList={allCardsData} holderName='Trending'/>
+            <CardHolder cardsList={allCardsData} holderName='Our Products'/>
         </div>
     )
 }
