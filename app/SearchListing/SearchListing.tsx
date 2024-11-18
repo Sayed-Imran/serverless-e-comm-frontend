@@ -12,7 +12,7 @@ function SearchListing() {
             <Col span={18} push={6}>
                 <h2>Showing Results for <span>"{searchQuery}"</span></h2>  
                 {products.map((product) => (
-                    <Row key={product.id} className='searchCard'>
+                    <Row key={product.id} className='searchCard Antcard'>
                     <Col xs={24} sm={8} md={6} lg={4}>
                         <Image
                             width={150}
@@ -24,7 +24,7 @@ function SearchListing() {
                         <h3>{product.name}</h3>
                         <div 
                             className="rating" 
-                            style={{ width: `${(product.rating / 5) * 9}%`,backgroundColor: product.rating >= 3.5 ? 'green' : product.rating >= 2.5 ? 'orange' : 'red' }}>
+                            style={{ width: "45px",backgroundColor: product.rating >= 3.5 ? 'green' : product.rating >= 2.5 ? 'orange' : 'red' }}>
                         
                             {product.rating}★
                         </div>
@@ -53,7 +53,7 @@ function SearchListing() {
                 </Row>                
                 ))}
             </Col>
-            <Col span={6} pull={18}>
+            <Col span={6} pull={18} sm={6} md={6} lg={6} xl={6} xs={0}>
                 <h1>Filter</h1>
             </Col>
         </Row>
