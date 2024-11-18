@@ -7,6 +7,7 @@ import {ServiceUtils} from './Utils/Service/httpLayer'
 import { showLoader, hideLoader } from './Utils/Redux/LoaderSlice';
 import Dashboard from './Dashboard/Dashboard';
 import TopNav from "./Components/NavBar/TopNav/TopNav";
+import SearchListing from '../app/SearchListing/SearchListing';
 export default function Home() {
   const dispatch = useDispatch();
   
@@ -30,7 +31,8 @@ export default function Home() {
       <Loader />
       <TopNav />
       <div className="body_container">
-        <Dashboard />
+        {/* <Dashboard /> */}
+        <SearchListing/>
       </div>
     </div>
   );

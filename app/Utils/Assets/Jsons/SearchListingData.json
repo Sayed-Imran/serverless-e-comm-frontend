@@ -1,0 +1,62 @@
+{
+  "searchQuery": "Motorola edge 40 neo",
+  "products": [
+    {
+      "id": 1,
+      "image": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+      "name": "Motorola edge 40 neo",
+      "rating": 4.45,
+      "price": 588,
+      "originalPrice": 450,
+      "discount": 45,
+      "freeDelivery": true,
+      "onlyFewLeft": true,
+      "attributes": [
+        {"label": "Brand", "value": "Motorola"},
+        {"label": "Model", "value": "Edge 40 Neo"},
+        {"label": "Display", "value": "6.8 inches, AMOLED, 120Hz"},
+        {"label": "Processor", "value": "Snapdragon 888"},
+        {"label": "RAM", "value": "8GB"},
+        {"label": "Storage", "value": "128GB"}
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+      "name": "Motorola edge 40 neo",
+      "rating": 2,
+      "price": 588,
+      "originalPrice": 450,
+      "discount": 45,
+      "freeDelivery": true,
+      "onlyFewLeft": true,
+      "attributes": [
+        {"label": "Brand", "value": "Motorola"},
+        {"label": "Model", "value": "Edge 40 Neo"},
+        {"label": "Display", "value": "6.8 inches, AMOLED, 120Hz"},
+        {"label": "Processor", "value": "Snapdragon 888"},
+        {"label": "RAM", "value": "8GB"},
+        {"label": "Storage", "value": "128GB"}
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+      "name": "Motorola edge 40 neo",
+      "rating": 3,
+      "price": 588,
+      "originalPrice": 450,
+      "discount": 45,
+      "freeDelivery": true,
+      "onlyFewLeft": true,
+      "attributes": [
+        {"label": "Brand", "value": "Motorola"},
+        {"label": "Model", "value": "Edge 40 Neo"},
+        {"label": "Display", "value": "6.8 inches, AMOLED, 120Hz"},
+        {"label": "Processor", "value": "Snapdragon 888"},
+        {"label": "RAM", "value": "8GB"},
+        {"label": "Storage", "value": "128GB"}
+      ]
+    }
+  ]
+}
